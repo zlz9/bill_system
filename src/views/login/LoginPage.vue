@@ -95,6 +95,7 @@ export default {
           }
         })
         .catch((err) => {
+          this.open4();
           console.log(err);
         });
     },
